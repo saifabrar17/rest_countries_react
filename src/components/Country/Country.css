@@ -1,3 +1,5 @@
 .country{
     background-color: khaki;
+    margin: 10px;
+    border: 1px solid green;
 }

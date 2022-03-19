@@ -18,9 +18,9 @@ const Countries = () => {
             <h1>Hello From Countries: {countries.length}</h1>
             {
                  countries.map(country => <Country 
-                    name={country.name.common} 
-                    population={country.population}
-                    area={country.area}>
+                    // name={country.name.common} 
+                    // population={country.population}
+                    country={country}>
                     
                     </Country>) 
             }
